@@ -1,3 +1,9 @@
+.Grid{
+    display: grid;
+    grid:auto auto auto auto;
+    
+    }
+
 h {
     text-align: center;
     width: 100%;
@@ -7,29 +13,41 @@ h {
     font-size: 30px;
     border: dashed;
 }
+.I1{
+grid-column:1  ;
+background-color: red;}
 
-.IMGS {
-    display: flex;               /* Use flexbox for layout */
-    justify-content: center;     /* Center images horizontally */
-    align-items: center;         /* Center images vertically */
-    height: 100vh;               /* Ensure the container takes full viewport height */
-    gap: 10px;                   /* Optional: Add space between the images */
+.I2{
+grid-column: 2;
+background-color: orange;
+
 }
 
-.IMGS img {
-    width: 30%;   /* Set width of the images */
-    height: auto; /* Maintain aspect ratio of images */
+
+.I3{
+
+
+
 }
 
-p1 {
-    width: 30%;
-    height: 100px;
-    text-align: center;
-    background-color: rgb(0, 174, 255);
-    display: inline-block;
-    border: dashed;
+
+.P1{
+grid-column: 1/ span 3;
+
 }
 
-p2 {
-    margin-right: 90%;
+.P2{
+grid-column: 4;
+grid-row: 1/ span 3;
 }
+
+
+.P3{
+
+
+
+
+}
+
+
+
